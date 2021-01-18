@@ -6,8 +6,8 @@ const HomePage = () => (
     <NavigationBar />
 
     <HomePageComponents.PlayNow />
-    
     <HomePageComponents.TheGames />
+    <HomePageComponents.Feature />
   </div>
   
 );
