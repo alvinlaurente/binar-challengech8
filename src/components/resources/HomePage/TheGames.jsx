@@ -55,6 +55,8 @@ const TheGames = () => (
             </Carousel.Item>
           </Carousel>
         </Col>
+        {/* End of Carousel */}
+
       </Row>
     </Container>
   </Jumbotron>

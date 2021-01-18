@@ -44,6 +44,7 @@ const Feature = () => (
               <div className="step__contentTitle">TBD</div>
             </div>
           </div>
+          {/* End of Vertical Stepper */}
         </Col>
       </Row>
     </Container>

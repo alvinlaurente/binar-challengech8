@@ -8,8 +8,8 @@ const HomePage = () => (
     <HomePageComponents.PlayNow />
     <HomePageComponents.TheGames />
     <HomePageComponents.Feature />
+    <HomePageComponents.Sysreq />
   </div>
-  
 );
 
 export default HomePage;
