@@ -9,6 +9,7 @@ const HomePage = () => (
     <HomePageComponents.TheGames />
     <HomePageComponents.Feature />
     <HomePageComponents.Sysreq />
+    <HomePageComponents.TopScores />
   </div>
 );
 
