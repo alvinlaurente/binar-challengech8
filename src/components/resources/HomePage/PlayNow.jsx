@@ -3,10 +3,10 @@ import Container from 'react-bootstrap/Container';
 import './style/PlayNow.scss';
 
 const PlayNow = () => (
-  <Jumbotron fluid className="playNow playNow--background">
-    <div className="text-uppercase font-weight-bold playNow__title">Play traditional game</div>
-    <div className="playNow__body">Experience new traditional game play</div>
-    <a href="#" className="btn btn-warning text-uppercase font-weight-bold playNow__button">Play now</a>
+  <Jumbotron fluid className="play-now play-now--background">
+    <div className="text-uppercase font-weight-bold play-now__title">Play traditional game</div>
+    <div className="play-now__caption">Experience new traditional game play</div>
+    <a href="#" className="btn btn-warning text-uppercase font-weight-bold play-now__button">Play now</a>
 
     <Container fluid className="position-relative p-0 scroller">
       <div className="mb-0 text-uppercase scroller__title">The story</div>

@@ -1,17 +1,17 @@
 @import '_constants.scss';
 
-.singleSection {
+.single-section {
   &--background {
     background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(10%, transparent), color-stop(90%, transparent), to(black)), url(/assets/images/index/newsletter-bg.jpg);
     background-image: linear-gradient(black 0%, transparent 10%, transparent 90%, black 100%), url(/assets/images/index/newsletter-bg.jpg);
   }
 
-  .loginForm {
+  .login-form {
     &__label {
       font-size: 24px;
     }
 
-    &__signUpNavigation {
+    &__sign-up-navigation {
       font-size: 14px;
 
       &--color {

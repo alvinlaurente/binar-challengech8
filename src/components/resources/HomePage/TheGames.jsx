@@ -7,12 +7,12 @@ import img from 'assets/images/index/rockpaperstrategy-1600.jpg';
 import './style/TheGames.scss';
 
 const TheGames = () => (
-  <Jumbotron fluid className="theGames theGames--background">
+  <Jumbotron fluid className="the-games the-games--background">
     <Container className="h-100 text-left d-flex align-items-center">
       <Row className="mx-auto">
         <Col lg={4}>
-          <div className="theGames__smallCaption">What's so special?</div>
-          <div className="text-uppercase theGames__bigCaption">The games</div>
+          <div className="the-games__small-caption">What's so special?</div>
+          <div className="text-uppercase the-games__big-caption">The games</div>
         </Col>
 
         {/* Carousel */}

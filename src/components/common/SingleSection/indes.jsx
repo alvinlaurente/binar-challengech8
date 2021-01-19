@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import "./index.scss";
 
 const SingleSection = () => (
-  <Jumbotron fluid className="d-flex align-items-center singleSection singleSection--background">
+  <Jumbotron fluid className="d-flex align-items-center single-section single-section--background">
     <Container>
       <Row className="d-inline-flex">
         <Col md={{ span: 6, offset: 6 }} className="text-left">
