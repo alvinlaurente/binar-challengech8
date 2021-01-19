@@ -72,7 +72,7 @@ const NavigationBar = () => {
               <Button
                 onClick={logout}
                 variant="warning"
-                className="navbar__link"
+                className="navbar__link navbar__link--text-black"
               >
                 Logout
               </Button>

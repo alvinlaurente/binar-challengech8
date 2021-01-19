@@ -20,6 +20,10 @@ function App() {
         <Route path={ROUTES.LOGIN} exact>
           <Pages.LoginPage />
         </Route>
+        <Route path={ROUTES.PAGENOTFOUND} exact>
+          <Pages.PageNotFound />
+        </Route>
+        <Redirect to={ROUTES.PAGENOTFOUND} />
       </Switch>
     </Router>
   );

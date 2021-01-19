@@ -1,4 +1,4 @@
-@import '_constants.scss';
+@import "_constants.scss";
 
 .navbar {
   font-family: $primary-font, $secondary-font;
@@ -27,19 +27,23 @@
       transition: all 0.8s ease 0s;
       color: $primary-color !important;
     }
+
+    &--text-black {
+      color: black !important;
+    }
   }
 }
 
 @media (min-width: 992px) {
   .navbar {
-    background-color: rgba(0,0,0,0.3) !important;
+    background-color: rgba(0, 0, 0, 0.3) !important;
 
     &__brand {
       color: $secondary-color !important;
     }
 
     &__link {
-      &--margin{
+      &--margin {
         margin-left: 20px;
       }
     }
