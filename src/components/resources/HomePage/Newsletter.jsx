@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import './style/Newsletter.scss';
 
 const Newsletter = () => (
-  <Jumbotron fluid className="d-flex align-items-center newsletter newsletter--background">
+  <Jumbotron fluid className="d-flex align-items-center newsletter newsletter--background" id="newsletter">
     <Container>
       <Row className="d-inline-flex">
         <Col md={{ span: 6, offset: 6 }} className="text-left">
@@ -16,15 +16,15 @@ const Newsletter = () => (
           <div className="text-justify newsletter__body">In case to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of you. We will send you emails containing information about game. We don't spam.</div>
 
           {/* Form */}
-          <Form.Row className="position-relative newsletterForm">
+          <Form.Row className="position-relative newsletter-form">
             <Col md="7">
-              <Form.Group controlId="newsletterForm.email">
-                <Form.Label className="newsletterForm__emailInputLabel">Your Email Address</Form.Label>
-                <Form.Control type="text" placeholder="youremail@binar.co.id" className="my-3 pt-3 bg-dark newsletterForm__emailInput"></Form.Control>
+              <Form.Group controlId="newsletter-form.email">
+                <Form.Label className="newsletter-form__email-input-label">Your Email Address</Form.Label>
+                <Form.Control type="text" placeholder="youremail@binar.co.id" className="my-3 pt-3 bg-dark newsletter-form__email-input"></Form.Control>
               </Form.Group>
             </Col>
             <Col md="5">
-              <Button type="submit" variant="warning" className="my-3 mb-3 w-100 newsletterForm__button">Subscribe Now</Button>
+              <Button type="submit" variant="warning" className="my-3 mb-3 w-100 newsletter-form__button">Subscribe Now</Button>
             </Col>
           </Form.Row>
           {/* End of Form */}

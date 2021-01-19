@@ -1,6 +1,6 @@
 @import '_constants.scss';
 
-.socialMediaBar {
+.social-media-bar {
   background-color: black;
   height: 30vh;
 
@@ -182,13 +182,13 @@
 }
 
 @media (min-width: 576px) and (max-width: 992px) {
-  .socialMediaBar {
+  .social-media-bar {
     height: 22vh;
   }
 }
 
 @media (min-width: 992px) {
-  .socialMediaBar {
+  .social-media-bar {
     height: 17vh;
   }
   

@@ -11,11 +11,11 @@
     margin-top: 30vh;
   }
 
-  &__smallCaption {
+  &__small-caption {
     font-size: 12px;
   }
 
-  &__bigCaption {
+  &__big-caption {
     font-size: 32px;
   }
 
@@ -79,7 +79,7 @@
       margin-left: 20px !important;
     }
 
-    &__contentTitle {
+    &__content-title {
       font-size: 20px;
       font-weight: bold;
       text-transform: uppercase;
@@ -94,20 +94,20 @@
       margin-top: 10vh;
     }
 
-    &__smallCaption {
+    &__small-caption {
       font-size: 2vw;
     }
     
-    &__bigCaption {
+    &__big-caption {
       font-size: 6.5vw;
     }
 
     .step {
-      &__contentTitle {
+      &__content-title {
         font-size: 2vw;
       }
 
-      &__contentCaption {
+      &__content-caption {
         font-size: 1.5vw;
       }
     }
@@ -122,20 +122,20 @@
       margin-top: 20vh;
     }
 
-    &__smallCaption {
+    &__small-caption {
       font-size: 3vw;
     }
     
-    &__bigCaption {
+    &__big-caption {
       font-size: 7vw;
     }
 
     .step {
-      &__contentTitle {
+      &__content-title {
         font-size: 3vw;
       }
 
-      &__contentCaption {
+      &__content-caption {
         font-size: 2vw;
       }
     }

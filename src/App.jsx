@@ -5,7 +5,7 @@ import {
   Redirect,
 } from "react-router-dom";
 import ROUTES from "configs/routes";
-import HomePage from "pages/HomePage";
+import Pages from "pages";
 
 function App() {
   return (
@@ -15,8 +15,15 @@ function App() {
           <Redirect to={ROUTES.HOMEPAGE} />
         </Route>
         <Route path={ROUTES.HOMEPAGE} exact>
-          <HomePage />
+          <Pages.HomePage />
         </Route>
+        <Route path={ROUTES.LOGIN} exact>
+          <Pages.LoginPage />
+        </Route>
+        <Route path={ROUTES.PAGENOTFOUND} exact>
+          <Pages.PageNotFound />
+        </Route>
+        <Redirect to={ROUTES.PAGENOTFOUND} />
       </Switch>
     </Router>
   );

@@ -22,13 +22,13 @@
     font-size: 12px;
   }
 
-  .newsletterForm {
-    &__emailInput {
+  .newsletter-form {
+    &__email-input {
       border: 1px solid grey;
       font-size: 20px;
       color: $primary-color;
 
-      &Label {
+      &-label {
         color: grey;
         position: absolute;
         font-size: 10px;
