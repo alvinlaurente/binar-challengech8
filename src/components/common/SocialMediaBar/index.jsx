@@ -4,7 +4,7 @@ import Col from 'react-bootstrap/Col';
 import './index.scss';
 
 const SocialMediaBar = () => (
-  <div className="text-center p-0 social-media-bar">
+  <div className="text-center p-0 social-media-bar" id="social-media">
     <Container>
       <Row>
         <Col lg={{ span: 4, offset: 8 }} className="my-2 w-100">

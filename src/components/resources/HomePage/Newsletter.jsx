@@ -7,7 +7,7 @@ import Form from 'react-bootstrap/Form';
 import './style/Newsletter.scss';
 
 const Newsletter = () => (
-  <Jumbotron fluid className="d-flex align-items-center newsletter newsletter--background">
+  <Jumbotron fluid className="d-flex align-items-center newsletter newsletter--background" id="newsletter">
     <Container>
       <Row className="d-inline-flex">
         <Col md={{ span: 6, offset: 6 }} className="text-left">

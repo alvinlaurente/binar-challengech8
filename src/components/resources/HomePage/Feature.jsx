@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import './style/Feature.scss';
 
 const Feature = () => (
-  <Jumbotron fluid className="feature feature--background">
+  <Jumbotron fluid className="feature feature--background" id="feature">
     <Container>
       <Row className="justify-content-end">
         <Col md={6} className="text-left feature__col--margin-top">
