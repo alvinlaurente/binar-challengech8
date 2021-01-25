@@ -4,7 +4,7 @@ const login = (username, password) =>
   new Promise((resolve, reject) =>
     axios
       .post(
-        `http://localhost:3001/api/v1/auth/login`,
+        `${process.env.REACT_APP_ROOT_URL}/auth/login`,
         { username, password },
         {
           "Access-Control-Allow-Origin": "localhost:3000",
